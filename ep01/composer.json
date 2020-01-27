@@ -1,0 +1,44 @@
+{
+
+    "name": "heroumcaslu/phptips",
+    "description": "Conhecendo o composer e configurando a IDE",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+
+        {
+
+            "name": "Lucas H. Silva",
+            "email": "lucas_herom@hotmail.com",
+            "role": "developer",
+            "homepage": "https://github.com/heroumcaslu"
+
+        }
+
+    ],
+    "config": {
+
+        "vendor-dir": "vendor"
+
+    },
+    "autoload": {
+
+        "psr-4": {
+
+            "Source\\": "source/"
+
+        },
+        "files": [
+
+            "source/Config.php"
+        
+        ]
+
+    },
+    "require": {
+
+        "phpmailer/phpmailer": "6.0.*"
+
+    }
+
+}

@@ -1,5 +1,5 @@
 <?php 
 
-    require __DIR__."/bendor/autoload.php";
+    require __DIR__."/vendor/autoload.php";
 
 ?>

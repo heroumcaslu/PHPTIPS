@@ -37,7 +37,7 @@
     },
     "require": {
 
-        "phpmailer/phpmailer": "6.0.*"
+        "phpmailer/phpmailer": "6.1.*"
 
     }
 
